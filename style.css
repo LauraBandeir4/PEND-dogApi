@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(254, 226, 188);
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+input{
+height: 5vh;
+width: 200vh;
+}
+
+button{
+    height: 5vh;
+    width: 8vh;
+}
+
+main{
+   display: flex;
+   flex-wrap: wrap;
+   height: 200px;
+   flex-grow: 1;
+   padding: 10px;
+
+}
+
+main img {
+    padding: 10px;
+    height: 300px;
+
+}
